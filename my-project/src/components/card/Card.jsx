@@ -1,8 +1,11 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import image from "../../assets/image.jpg";
 const Card = () => {
   return (
     <div>
       <div className="card" style={{ width: "18rem" }}>
-        <img src="..." className="card-img-top" alt="..." />
+        <img src={image} className="card-img-top" alt="Card image" />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">

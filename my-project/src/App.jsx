@@ -2,10 +2,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { BrowserRouter, Route, Routes } from "react-router";
-import Home from "./home/Home";
-import Card from "./card/Card";
-import Navbar from "./navber/Navber";
-import Contact from "./contact/Contact";
+import Navbar from "./components/navber/Navber";
+import Home from "./components/home/Home";
+import Card from "./components/card/Card";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (

@@ -6,22 +6,22 @@ const Footer = () => {
       <ul className="nav justify-content-center">
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">
-            
+            this is a footer for this page.
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            developed
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            by
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link disabled" aria-disabled="true">
-            Disabled
+            sharmony hashem shawon
           </a>
         </li>
       </ul>

@@ -6,6 +6,7 @@ import Navbar from "./components/navber/Navber";
 import Home from "./components/home/Home";
 import Card from "./components/card/Card";
 import Contact from "./components/contact/Contact";
+import Footer from "./footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/card" element={<Card />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </>
   );

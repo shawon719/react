@@ -21,7 +21,8 @@ import { EditProduct } from './pages/product/EditProduct';
 
 const App = () => {
   return (
-     <BrowserRouter>     
+     <BrowserRouter>   
+       
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact/>}/>
@@ -36,6 +37,7 @@ const App = () => {
         <Route path="/login" element={<Login/>} />
         <Route path="/" element={<HomePortal/>} />
       </Routes>
+      
     </BrowserRouter>
 
   

@@ -15,19 +15,19 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           {/* <img src="/logo.png" alt="Logo" className="h-8 w-8" /> */}
           <Link to="/">
-            <span className="text-lime-700 font-bold text-xl">
+            <span className="text-red-700 font-bold text-xl">
               Courier MAnagement
             </span>
           </Link>
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6 text-lime-700 font-medium">
+        <div className="hidden md:flex space-x-6 text-black-700 font-medium">
           <ul className="list-none flex gap-8">
             <li>
               <a
                 href="#"
-                className="hover:text-lime-800 font-semibold text-xl hover:bg-lime-100 rounded-3xl py-1 px-3 block"
+                className="hover:text-red-800 font-semibold text-xl hover:bg-black-100 rounded-3xl py-1 px-3 block"
               >
                 Home
               </a>
@@ -87,7 +87,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="md:hidden bg-white shadow-lg p-4 space-y-4">
           <a href="#" className="block text-lime-800">
             Services
@@ -111,7 +111,7 @@ const Navbar = () => {
             Get a quote
           </button>
         </div>
-      )}
+      )} */}
     </nav>
   );
 };
